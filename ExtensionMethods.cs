@@ -54,7 +54,7 @@ namespace HomeTask17_Static_
         }
 
 
-        public static bool IsPrime(int number)
+        public static bool IsPrime(this int number)
         {
             bool check = false;
             int count = 0;
@@ -99,5 +99,4 @@ namespace HomeTask17_Static_
 
 
     }
-}
 }
